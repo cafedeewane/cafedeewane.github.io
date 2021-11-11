@@ -128,7 +128,7 @@ button:focus {
     bottom: 0px;
 }
 .table{
-    height: 680px;
+    height: 600px;
     width: 100%;
     margin-bottom: 0px!important;
 }
@@ -167,13 +167,24 @@ button:focus {
     }
 }
 
+@media screen and(max-width: 880px) {
+    .blog-header-logo img {
+        position: relative;
+        z-index: 10;
+        width: 100px;
+        top: 15px;
+        right: 80px;
+    }
+}
+
+
 @media screen and(max-width: 1000px) {
     .blog-header-logo img {
         position: relative;
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 100px;
+        right: 80px;
         
     }
     .table{
@@ -188,7 +199,7 @@ button:focus {
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 80px;
+        right: 60px;
     }
     .table{
         height: 400px;
@@ -203,7 +214,7 @@ button:focus {
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 60px;
+        right: 30px;
     }
     .table{
         height: 300px;
@@ -213,6 +224,13 @@ button:focus {
      }
 }
 @media screen and(max-width: 450px) {
+    .blog-header-logo img {
+        position: relative;
+        z-index: 10;
+        width: 100px;
+        top: 15px;
+        right: 30px;
+    }
     .table{
         height: 250px;
     }
@@ -226,7 +244,7 @@ button:focus {
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 60px;
+        right: 20px;
     }
     .table{
         height: 200px;
