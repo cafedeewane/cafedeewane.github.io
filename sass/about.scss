@@ -230,11 +230,21 @@ a .mt-2 .text-muted{
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 100px;
+        right: 80px;
         
     }
     
  
+}
+
+@media screen and(max-width: 880px) {
+    .blog-header-logo img {
+        position: relative;
+        z-index: 10;
+        width: 100px;
+        top: 15px;
+        right: 80px;
+    }
 }
 
 @media screen and(max-width: 770px) {
@@ -243,7 +253,7 @@ a .mt-2 .text-muted{
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 80px;
+        right: 60px;
     }
    
 }
@@ -253,11 +263,18 @@ a .mt-2 .text-muted{
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 60px;
+        right: 30px;
     }
     
 }
 @media screen and(max-width: 450px) {
+    .blog-header-logo img {
+        position: relative;
+        z-index: 10;
+        width: 100px;
+        top: 15px;
+        right: 30px;
+    }
     .table{
         height: 250px;
     }
@@ -269,7 +286,7 @@ a .mt-2 .text-muted{
         z-index: 10;
         width: 100px;
         top: 15px;
-        right: 60px;
+        right: 30px;
     }
     
 }

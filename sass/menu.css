@@ -300,4 +300,77 @@ footer h5 {
   font-family: "Lato", sans-serif;
   padding-top: 10px;
 }
+
+@media screen and (max-width: 2700px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 30px;
+  }
+  .table {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 30px;
+  }
+}
 /*# sourceMappingURL=menu.css.map */
